@@ -23,6 +23,11 @@
    - Centralized tracking
    - Documentation-driven development
 
+4. Environment
+   - Windows operating system
+   - Avoid using Linux-specific commands
+   - GitHub CLI (gh) installed and available
+
 ## Technical Constraints
 1. File Organization
    - Projects must be in root directory
@@ -38,9 +43,10 @@
 ## Dependencies
 1. System Requirements
    - Windows 11 Operating System
-   - Command Line Access
+   - Command Line Access (Windows Command Prompt or PowerShell)
    - Text Editor/IDE Support
    - Git for version control
+   - GitHub CLI (gh) for GitHub operations
 
 2. Project Dependencies
    - Managed per project
