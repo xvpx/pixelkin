@@ -17,6 +17,39 @@ For detailed information about the project requirements, features, and technical
 ## 🛠️ Setup
 (To be completed when project development begins)
 
+## 📦 Deployment
+### Initial Server Setup
+1. Install Git on the Windows server if not already installed
+2. Clone the repository:
+   ```powershell
+   git clone https://github.com/xvpx/pixelkin.git
+   cd pixelkin
+   ```
+3. Install project dependencies:
+   ```powershell
+   npm install
+   ```
+
+### Updating the Server
+To pull the latest changes from GitHub:
+1. Open PowerShell on the server
+2. Navigate to the project directory:
+   ```powershell
+   cd path\to\pixelkin
+   ```
+3. Pull the latest changes:
+   ```powershell
+   git pull origin main
+   ```
+4. Install any new dependencies:
+   ```powershell
+   npm install
+   ```
+5. Restart the application (if using PM2):
+   ```powershell
+   pm2 restart pixelkin-app
+   ```
+
 ## 🚀 Usage
 (To be completed when project development begins)
 
