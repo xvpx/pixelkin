@@ -1,0 +1,44 @@
+# .clinerules: Projects Directory Intelligence
+
+## Project Organization
+1. All projects are created as root-level directories in c:/Users/Dustin/Documents/Projects
+2. Each project should have its own README.md file
+3. Use consistent naming conventions for project directories (e.g., lowercase with hyphens)
+
+## Documentation
+1. Central documentation is maintained in the memory-bank/ directory
+2. Project-specific documentation should be kept within each project's directory
+3. Use Markdown (.md) for all documentation files
+4. Include Mermaid diagrams for visual representations when appropriate
+
+## Version Control
+1. Each project should have its own Git repository
+2. Use meaningful commit messages following conventional commits style
+3. Create a .gitignore file for each project to exclude unnecessary files
+
+## Code Style
+1. Use consistent indentation (prefer spaces over tabs)
+2. Follow language-specific style guides for each project
+3. Use meaningful variable and function names
+
+## Project Creation
+1. Use project templates when available (to be created)
+2. Initialize new projects with a basic README.md and .gitignore file
+3. Document project setup steps in the project's README.md
+
+## Workflow
+1. Update memory-bank/activeContext.md when switching focus between projects
+2. Regularly update memory-bank/progress.md to track overall progress
+3. Review and update .clinerules as new patterns emerge
+
+## Tool Usage
+1. Prefer using provided tools (e.g., list_files, read_file) over CLI commands when possible
+2. Use the replace_in_file tool for making targeted changes to existing files
+3. Utilize the search_files tool to find specific code patterns or TODO comments across projects
+
+## Project Intelligence
+1. Document project-specific patterns in each project's README.md
+2. Update .clinerules with patterns that apply across multiple projects
+3. Use comments to explain complex code sections or important decisions
+
+Remember: This file is a living document. Update it regularly as new patterns and best practices emerge throughout the development process.
